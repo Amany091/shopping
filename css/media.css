@@ -1,0 +1,28 @@
+@media screen and (max-width: 500px) {
+    .products-list{
+        grid-template-columns: repeat(1, 2fr);
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .products-list{
+        grid-template-columns: repeat(1, 2fr);
+    }
+
+    .products-list .card {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+    .products-list{
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+
+@media screen and (min-width: 1171px) {
+    .products-list{
+        grid-template-columns: repeat(3, 2fr);
+    }
+}
