@@ -15,5 +15,5 @@ function signout() {
     loginBtn.classList.remove("d-none")
     signoutBtn.classList.add("d-none")
     userVal.innerHTML = ""
-    window.location.href='./../signin.html'
+    window.location.href='./signin.html'
 }

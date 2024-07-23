@@ -16,7 +16,7 @@ function signin() {
             user.username = usr.username
             user.password = usr.password
             localStorage.setItem("user", user.username)
-            window.location.href = "./../index.html"
+            window.location.href = "./index.html"
             userFount = true
         }
     })
